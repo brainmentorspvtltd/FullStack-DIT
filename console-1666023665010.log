@@ -1,0 +1,177 @@
+var a;
+undefined
+typeof a;
+'undefined'
+a  = 10;
+10
+typeof a;
+'number'
+a=1000000000000;
+1000000000000
+typeof a;
+'number'
+a=1;
+1
+typeof a;
+'number'
+a=10.20;
+10.2
+typeof a;
+'number'
+a=100/0;
+Infinity
+a;
+Infinity
+typeof a;
+'number'
+var a= 10;
+undefined
+var b = "Amit";
+undefined
+typeof a;
+'number'
+typeof b;
+'string'
+a + b;
+'10Amit'
+a- b;
+NaN
+typeof NaN;
+'number'
+typeof Infinity;
+'number'
+10/0;
+Infinity
+isFinite(10/0)?10:0;
+0
+isNaN(10-"AMit");
+true
+isNaN(10-"AMit")?0:10;
+0
+var a = "1000";
+undefined
+typeof a;
+'string'
+parseInt(a);
+1000
+a;
+'1000'
+parseInt(a) + 1000;
+2000
+a + 1000
+'10001000'
+var ename = "Amit";
+undefined
+typeof ename;
+'string'
+ename = 'Amit';
+'Amit'
+typeof ename;
+'string'
+ename = "Amit";
+'Amit'
+ename = `ngdjhdfkhgfdjkghdfkjghdfkgjh
+fhjdkghkjfdhgkjdfhgkdfjhgkdfjhgdkjghdfkgkdfhg
+hgkdjfhgdfhgkjdf
+hgdjkfghjkdf`;
+'ngdjhdfkhgfdjkghdfkjghdfkgjh\nfhjdkghkjfdhgkjdfhgkdfjhgkdfjhgdkjghdfkgkdfhg\nhgkdjfhgdfhgkjdf\nhgdjkfghjkdf'
+typeof ename;
+'string'
+console.log(ename);
+VM1842:1 ngdjhdfkhgfdjkghdfkjghdfkgjh
+fhjdkghkjfdhgkjdfhgkdfjhgkdfjhgdkjghdfkgkdfhg
+hgkdjfhgdfhgkjdf
+hgdjkfghjkdf
+undefined
+var a = 10;
+undefined
+var b = 20;
+undefined
+console.log("A is "+a+" B is "+b+" Sum is "+(a+b));
+VM2136:1 A is 10 B is 20 Sum is 30
+undefined
+console.log(`A is ${a} B is ${b} Sum is ${a+b}`);
+VM2289:1 A is 10 B is 20 Sum is 30
+undefined
+var att = true;
+undefined
+typeof att;
+'boolean'
+true + true;
+2
+true + false;
+1
+10 + true - false;
+11
+true + "Hello";
+'trueHello'
+var x = Number.MAX_SAFE_INTEGER;
+undefined
+x;
+9007199254740991
+typeof x;
+'number'
+x++;
+9007199254740991
+x;
+9007199254740992
+x++;
+9007199254740992
+x;
+9007199254740992
+x;
+9007199254740992
+x++;
+9007199254740992
+x++;
+9007199254740992
+x++;
+9007199254740992
+x++;
+9007199254740992
+x++;
+9007199254740992
+x++;
+9007199254740992
+x;
+9007199254740992
+var x = 9007199254740992n;
+undefined
+typeof x;
+'bigint'
+var y = 9007199254740992n;
+undefined
+var z = x  + y;
+undefined
+z;
+18014398509481984n
+x;
+9007199254740992n
+x + 1000;
+VM2920:1 Uncaught TypeError: Cannot mix BigInt and other types, use explicit conversions
+    at <anonymous>:1:3
+(anonymous) @ VM2920:1
+var txt = "1000000";
+undefined
+var y = BigInt(txt);
+undefined
+y;
+1000000n
+var ages = [20,19,22,23];
+undefined
+typeof ages;
+'object'
+ages[0];
+20
+ages[1];
+19
+ages = null;
+null
+ages;
+null
+ages[0];
+VM3226:1 Uncaught TypeError: Cannot read properties of null (reading '0')
+    at <anonymous>:1:5
+(anonymous) @ VM3226:1
+typeof ages;
+'object'
