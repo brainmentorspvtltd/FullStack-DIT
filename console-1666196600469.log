@@ -1,0 +1,88 @@
+var arr = [10,20,30,40,40,50,60];
+undefined
+var y = arr; // Reference Copy
+undefined
+y;
+(7) [10, 20, 30, 40, 40, 50, 60]
+arr;
+(7) [10, 20, 30, 40, 40, 50, 60]
+y == arr;
+true
+y[0] = 1000;
+1000
+y;
+(7) [1000, 20, 30, 40, 40, 50, 60]
+arr;
+(7) [1000, 20, 30, 40, 40, 50, 60]
+var t = 1000;
+undefined
+vr t2 = t;
+VM781:1 Uncaught SyntaxError: Unexpected identifier 't2'
+var t2 = t;
+undefined
+t2 = t2 + 9999;
+10999
+t2;
+10999
+t;
+1000
+var arr = [10,20,30,40,40,50,60];
+undefined
+arr.length;
+7
+arr.push(10000);
+8
+arr;
+(8) [10, 20, 30, 40, 40, 50, 60, 10000]
+arr.unshift(333);
+9
+arr;
+(9) [333, 10, 20, 30, 40, 40, 50, 60, 10000]
+var obj = {};
+undefined
+typeof obj;
+'object'
+var arr = [];
+undefined
+typeof arr;
+'object'
+obj instanceof Object;
+true
+arr instanceof Object;
+true
+arr instanceof Array;
+true
+obj instanceof Array;
+false
+var temp ={'delhi':22, 'mumbai':33};
+undefined
+temp['delhi'];
+22
+temp.delhi;
+22
+var arr = [10,20,30,40,50];
+undefined
+arr[0];
+10
+arr[1];
+20
+var ename = "Amit";
+undefined
+typeof ename;
+'string'
+var customerName = new String("Ram");
+undefined
+typeof customerName;
+'object'
+customerName instanceof String;
+true
+customerName instanceof Object;
+true
+customerName.toUpperCase();
+'RAM'
+customerName.length;
+3
+customerName.charAt(0);
+'R'
+customerName.substring(1);
+'am'

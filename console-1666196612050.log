@@ -1,0 +1,48 @@
+// Interview Question undefined vs null
+undefined
+undefined == null;
+true
+var t ;
+undefined
+typeof t;
+'undefined'
+t = 100;
+100
+typeof t;
+'number'
+var obj = {id:1001, name:'Amit'};
+undefined
+obj.id;
+1001
+obj.name;
+'Amit'
+obj = null;
+null
+typeof obj;
+'object'
+typeof null;
+'object'
+typeof undefined;
+'undefined'
+100 + undefined;
+NaN
+100 + null;
+100
+// undefined == null why it give true
+undefined
+var a= 10;
+undefined
+var b = "10";
+undefined
+typeof a;
+'number'
+typeof b;
+'string'
+a == b;
+true
+undefined == null;
+true
+a===b;
+false
+undefined === null;
+false

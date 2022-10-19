@@ -1,0 +1,24 @@
+var a = 10;
+undefined
+typeof a;
+'number'
+var b = new Number(100);
+undefined
+typeof b;
+'object'
+a;
+10
+b;
+Number {100}
+var w = "Amit";
+undefined
+typeof w;
+'string'
+var y = new String("Ram");
+undefined
+typeof y;
+'object'
+w.toUpperCase();
+'AMIT'
+w.length;
+4

@@ -1,0 +1,10 @@
+var  x= 100;
+undefined
+var b = null;
+undefined
+x = 200;
+200
+b = null;
+null
+x+90;
+290
