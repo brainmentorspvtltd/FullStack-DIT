@@ -1,0 +1,12 @@
+table {
+    width: 40%;
+    margin: 100px auto;
+}
+
+.btn {
+    width: 200px;
+    height: 150px;
+    font-size: 4em;
+    background-color: red;
+    color: #fff;
+}
