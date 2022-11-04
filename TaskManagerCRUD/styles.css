@@ -1,0 +1,8 @@
+textarea {
+    resize: none;
+}
+
+input[type="checkbox"] {
+    height: 30px;
+    width: 30px;
+}
