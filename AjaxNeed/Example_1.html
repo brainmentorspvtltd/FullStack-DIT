@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>AJAX Need</h1>
+
+    <button onclick="caller()">Start...</button>
+
+    <script>
+        function one() {
+            console.log("One Called...");
+        }
+        function two() {
+            var j;
+            for(var i = 0; i < 10000000000; i++) {
+                j = j + i;
+            }
+            console.log("Two Called...");
+        }
+        function three() {
+            console.log("Three Called...");
+        }
+        function caller() {
+            one();
+            // two();
+            setTimeout(function() {
+                two();
+            }, 3000);
+            three();
+        }
+    </script>
+    
+</body>
+</html>
